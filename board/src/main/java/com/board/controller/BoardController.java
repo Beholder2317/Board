@@ -78,7 +78,7 @@ public class BoardController {
 	}
 	
 	// 게시물 목록 + 페이징 추가
-	@RequestMapping(value = "/list", method = RequestMethod.GET)
+	@RequestMapping(value = "/listPage", method = RequestMethod.GET)
 	public void getListPage(Model model, @RequestParam("num") int num) throws Exception {
 	  		
 		// 게시물 총 갯수
